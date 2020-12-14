@@ -338,7 +338,7 @@
               <MiscControls>-fno-exceptions</MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath>..\rtos\source;..\rtos\source\config;..\rtos\source\hardware;..\external\arm;..\external\st\STM32F10x</IncludePath>
+              <IncludePath>..\external\arm;..\external\st\STM32F10x;..\rtos\source;..\rtos\source\config;..\rtos\source\hardware;..\rtos\source\common;..\rtos\source\event;..\rtos\source\handle;..\rtos\source\lock;..\rtos\source\system_timer;..\rtos\source\task;..\rtos\source\timer;..\rtos\source\scheduler</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -393,9 +393,9 @@
           <GroupName>rtos</GroupName>
           <Files>
             <File>
-              <FileName>rtos.lib</FileName>
-              <FileType>4</FileType>
-              <FilePath>..\rtos\output\rtos.lib</FilePath>
+              <FileName>kernel.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\rtos\source\kernel.cpp</FilePath>
             </File>
           </Files>
         </Group>

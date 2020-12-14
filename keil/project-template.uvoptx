@@ -227,12 +227,12 @@
     <File>
       <GroupNumber>2</GroupNumber>
       <FileNumber>2</FileNumber>
-      <FileType>4</FileType>
+      <FileType>8</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\rtos\output\rtos.lib</PathWithFileName>
-      <FilenameWithoutPath>rtos.lib</FilenameWithoutPath>
+      <PathWithFileName>..\rtos\source\kernel.cpp</PathWithFileName>
+      <FilenameWithoutPath>kernel.cpp</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
